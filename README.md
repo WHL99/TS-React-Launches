@@ -1,2 +1,2 @@
 # ts-react-launches
-Created with CodeSandbox
+Built with TypeScript and React, created with CodeSandbox
