@@ -1,0 +1,81 @@
+/* GENERIC STYLES */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+
+  color: #2d2f3b;
+}
+
+p {
+  line-height: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+}
+
+nav {
+  background: #cec8db;
+  color: white;
+  padding: 0px 20px;
+  box-shadow: 0px 1px 2px gray;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+nav p {
+  color: white;
+  margin-left: 0px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.logo,
+img {
+  width: 200px;
+}
+
+.launch-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  gap: 10px;
+  min-width: 400px;
+  width: 90%;
+  padding: 10px;
+  box-shadow: 0px 2px 3px grey;
+  margin-bottom: 20px;
+  background: #cfb2d6;
+  border-radius: 2px;
+}
+
+button {
+  outline: none;
+  background-color: #bababa;
+  color: #ffffff;
+  border-radius: 0.15em;
+  padding: 0.3em 1em;
+  margin: 1em 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+}
